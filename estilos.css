@@ -81,8 +81,73 @@ justify-content: space-between;
     display: none;
 }
 
+.header-content {
+    text-align: center;
+
+}
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
 
 
+}
+
+.boton1{
+    height: px;
+    width:190px;
+    display: inline-block;
+    padding:11px 35px;
+    background-color: goldenrod;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.boton1:hover{
+    background-color: gold
+}
+
+.mejores-ganadores{
+    padding: 100px 0;
+    background-color:goldenrod;
+    position: relative;
+}
+.contenido-ganadores{
+    text-align: center;
+}
+.contenido-ganadores h2{
+    font-size: 55px;
+    line-height: 70px;
+    color:black;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.contenido-ganadores h2:hover{
+    color: white;
+}
+
+.boton1-bis{
+    height: px;
+    width:190px;
+    display: inline-block;
+    padding:11px 35px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+.boton1-bis:hover{
+    background-color: gold
+}
 
 
 
