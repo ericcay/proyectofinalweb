@@ -149,6 +149,126 @@ justify-content: space-between;
     background-color: gold
 }
 
+.txt-parrafo{
+    font-size: 16px;
+    color: black;
+    padding: 0 250px;
+    padding-bottom: 35px;
+}
+.nombres-grupo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 5%;
+    gap: 25px;
+
+}
+.nombres-1 img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    
+}
+.nombres-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: rgb(27, 25, 25);
+    color: whitesmoke;
+
+}
+
+.nombres-1 p{
+    text-align: left;
+}
+
+
+.contenido-ganadores .boton1-bis{
+    text-align: center;
+}
+.vintage{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Estadio_ingles_lima.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+.contenido-vintage{
+    text-align: center;
+    
+}
+.contenido-vintage h2{
+    font-size: 55px;
+    line-height: 70px;
+    color:black;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.contenido-vintage p{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    padding: 0 150px;
+
+}
+.vintage-grupo{
+   display: flex;
+   justify-content: space-between;
+   padding: 0 400px;
+}
+.vintage-1 img{
+   width: 50px;
+   margin-bottom: 15px;
+}
+
+.general{
+display: flex;
+}
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: goldenrod;
+    
+}
+
+.general-2{
+    background-image: url(https://dicodusport.fr/blog/wp-content/uploads/2021/04/25-avril-1992-Dernier-match-de-Papin-avec-lOM.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-3{
+    background-image: url(https://www.panenka.org/wp-content/uploads/2019/03/lev-759x500-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+h2{
+font-size: 40px;
+margin-bottom: 20px;
+}
+h2:hover{
+    color: white;
+}
+
+p{
+    font-size: 16px;
+    margin: 25px 0 45px 0;
+}
+
+.polemicas{
+    padding: 100px 0;
+    text-align: center;
+
+}
+
 
 
 
