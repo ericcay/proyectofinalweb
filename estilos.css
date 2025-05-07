@@ -22,9 +22,7 @@ body{
 }
 
 .header{
-    background-image: linear-gradient(
-    rgba(0,0,0,0.7),
-    rgba(0,0,0,0.7)),
+    background-image: 
     url(imagenes/black-liquid-marble-background-handmade-acrylic-paint.jpg);
     background-size: cover;
     background-position: center bottom;
@@ -255,7 +253,7 @@ font-size: 40px;
 margin-bottom: 20px;
 }
 h2:hover{
-    color: white;
+    color:white;
 }
 
 p{
@@ -266,20 +264,68 @@ p{
 .polemicas{
     padding: 100px 0;
     text-align: center;
+    
 
 }
+.contenido-polemicas{
+    display: flex;
+    justify-content: space-between;
+}
+.polemica-1{
+    padding: 15px 55px;
+}
+.polemica-1 img{
+    width: 125px;
+    margin-bottom: 15px;
+}
+.polemica-1 h3{
+    font-size: 25px;
+    color: black;
+}
+.polemica-1 p{
+    text-align:left;
+}
+.polemica-2{
+    padding: 15px 55px;
+}
+.polemica-2 img{
+    width:200px;
+    margin-bottom:15px;
+}
+.polemica-2 h3{
+    font-size: 25px;
+    color: black;  
+}
+.polemica-2 p{
+    text-align:left;
+}
 
+.polemica-3{
+    padding: 15px 55px;  
+}
+.polemica-3 img{
+    width:200px;
+    margin-bottom:15px;
+}
+.polemica-3 h3{
+    font-size: 25px;
+    color: black;  
+}
+.polemica-3 p{
+    text-align:left;
+}
+.titulo-solo:hover{
+    color: goldenrod;
+}
 
+.footer{
+    padding: 100px 0;
+    background-image: url(https://img.freepik.com/free-photo/black-liquid-marble-background-handmade-acrylic-paint_53876-108099.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center bottom;
+    min-height: 70%;
+    display: flex;
+    align-items: center;
+}
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
-
-
-
-
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
