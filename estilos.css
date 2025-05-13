@@ -1,331 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
-
-body{
-    font-family: 'Cinzel Decorative';
+body {
+  font-family: "Cinzel Decorative";
 }
 
-.contenedor{
-    max-width: 1200px;
-    margin: 0 auto;
-    
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.header{
-    background-image: 
-    url(imagenes/black-liquid-marble-background-handmade-acrylic-paint.jpg);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
+.header {
+  background-image: url(imagenes/black-liquid-marble-background-handmade-acrylic-paint.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
 }
-.menu{
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-display: flex;
-align-items: center;
-justify-content: space-between;
-
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.logo{
-    color:white;
-    font-size: 30px;
-    font-weight: 900;
-
+.logo {
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
 }
 
-.menu .navbar ul li{
-    position: relative;
-    float: left;
+.menu .navbar ul li {
+  position: relative;
+  float: left;
 }
-.menu .navbar ul li a{
-    font-size: 18px;
-    padding: 20px;
-    color:white;
-    font-weight: 700;
-    display: block;
-
-}
-
-.menu .navbar ul li a:hover{
-    color: goldenrod;
-}
-#menu{
-    display: none;
-
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: white;
+  font-weight: 700;
+  display: block;
 }
 
-.menu-icono{
-    width: 25px;
+.menu .navbar ul li a:hover {
+  color: goldenrod;
+}
+#menu {
+  display: none;
 }
 
-.menu label{
-    cursor: pointer;
-    display: none;
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
 }
 
 .header-content {
-    text-align: center;
-
+  text-align: center;
 }
-.header-content h1{
-    font-size: 75px;
-    line-height: 80px;
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 35px;
-}
-
-.header-content p{
-    font-size: 16px;
-    color: #c5c5c5;
-    padding: 0 250px;
-    margin-bottom: 25px;
-
-
+.header-content h1 {
+  font-size: 75px;
+  line-height: 80px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 35px;
 }
 
-.boton1{
-    height: px;
-    width:190px;
-    display: inline-block;
-    padding:11px 35px;
-    background-color: goldenrod;
-    color: white;
-    text-transform: uppercase;
-    
-}
-.boton1:hover{
-    background-color: gold
+.header-content p {
+  font-size: 16px;
+  color: #c5c5c5;
+  padding: 0 250px;
+  margin-bottom: 25px;
 }
 
-.mejores-ganadores{
-    padding: 100px 0;
-    background-color:goldenrod;
-    position: relative;
+.boton1 {
+  height: px;
+  width: 190px;
+  display: inline-block;
+  padding: 11px 35px;
+  background-color: goldenrod;
+  color: white;
+  text-transform: uppercase;
 }
-.contenido-ganadores{
-    text-align: center;
-}
-.contenido-ganadores h2{
-    font-size: 55px;
-    line-height: 70px;
-    color:black;
-    text-transform: uppercase;
-    padding: 0 250px;
-    margin-bottom: 15px;
-}
-.contenido-ganadores h2:hover{
-    color: white;
+.boton1:hover {
+  background-color: gold;
 }
 
-.boton1-bis{
-    height: px;
-    width:190px;
-    display: inline-block;
-    padding:11px 35px;
-    background-color: black;
-    color: white;
-    text-transform: uppercase;
+.mejores-ganadores {
+  padding: 100px 0;
+  background-color: goldenrod;
+  position: relative;
 }
-.boton1-bis:hover{
-    background-color: gold
+.contenido-ganadores {
+  text-align: center;
+}
+.contenido-ganadores h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: black;
+  text-transform: uppercase;
+  padding: 0 250px;
+  margin-bottom: 15px;
+}
+.contenido-ganadores h2:hover {
+  color: white;
 }
 
-.txt-parrafo{
-    font-size: 16px;
-    color: black;
-    padding: 0 250px;
-    padding-bottom: 35px;
+.boton1-bis {
+  height: px;
+  width: 190px;
+  display: inline-block;
+  padding: 11px 35px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
 }
-.nombres-grupo{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    padding: 5%;
-    gap: 25px;
+.boton1-bis:hover {
+  background-color: gold;
+}
 
+.txt-parrafo {
+  font-size: 16px;
+  color: black;
+  padding: 0 250px;
+  padding-bottom: 35px;
 }
-.nombres-1 img{
-    width: 200px;
-    height: auto;
-    object-fit: cover;
-    
+.nombres-grupo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding: 5%;
+  gap: 25px;
+}
+.nombres-1 img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
 }
 .nombres-1 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    border: 1px black solid;
-    border-radius: 20px;
-    padding: 25px;
-    background-color: rgb(27, 25, 25);
-    color: whitesmoke;
-
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border: 1px black solid;
+  border-radius: 20px;
+  padding: 25px;
+  background-color: rgb(27, 25, 25);
+  color: whitesmoke;
 }
 
-.nombres-1 p{
-    text-align: left;
+.nombres-1 p {
+  text-align: left;
 }
 
-
-.contenido-ganadores .boton1-bis{
-    text-align: center;
+.contenido-ganadores .boton1-bis {
+  text-align: center;
 }
-.vintage{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Estadio_ingles_lima.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 0;
+.vintage {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Estadio_ingles_lima.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
 }
-.contenido-vintage{
-    text-align: center;
-    
+.contenido-vintage {
+  text-align: center;
 }
-.contenido-vintage h2{
-    font-size: 55px;
-    line-height: 70px;
-    color:black;
-    text-transform: uppercase;
-    margin-bottom: 50px;
+.contenido-vintage h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 50px;
 }
-.contenido-vintage p{
-    font-size: 16px;
-    color: black;
-    margin-bottom: 30px;
-    padding: 0 150px;
-
+.contenido-vintage p {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  padding: 0 150px;
 }
-.vintage-grupo{
-   display: flex;
-   justify-content: space-between;
-   padding: 0 400px;
+.vintage-grupo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 400px;
 }
-.vintage-1 img{
-   width: 50px;
-   margin-bottom: 15px;
+.vintage-1 img {
+  width: 50px;
+  margin-bottom: 15px;
 }
 
-.general{
-display: flex;
+.general {
+  display: flex;
 }
-.general-1{
-    width: 50%;
-    padding: 100px 250px 100px 100px;
-    background-color: goldenrod;
-    
-}
-
-.general-2{
-    background-image: url(https://dicodusport.fr/blog/wp-content/uploads/2021/04/25-avril-1992-Dernier-match-de-Papin-avec-lOM.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-}
-.general-3{
-    background-image: url(https://www.panenka.org/wp-content/uploads/2019/03/lev-759x500-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-}
-h2{
-font-size: 40px;
-margin-bottom: 20px;
-}
-h2:hover{
-    color:white;
+.general-1 {
+  width: 50%;
+  padding: 100px 250px 100px 100px;
+  background-color: goldenrod;
 }
 
-p{
-    font-size: 16px;
-    margin: 25px 0 45px 0;
+.general-2 {
+  background-image: url(https://dicodusport.fr/blog/wp-content/uploads/2021/04/25-avril-1992-Dernier-match-de-Papin-avec-lOM.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+.general-3 {
+  background-image: url(https://www.panenka.org/wp-content/uploads/2019/03/lev-759x500-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+h2:hover {
+  color: white;
 }
 
-.polemicas{
-    padding: 100px 0;
-    text-align: center;
-    
-
-}
-.contenido-polemicas{
-    display: flex;
-    justify-content: space-between;
-}
-.polemica-1{
-    padding: 15px 55px;
-}
-.polemica-1 img{
-    width: 125px;
-    margin-bottom: 15px;
-}
-.polemica-1 h3{
-    font-size: 25px;
-    color: black;
-}
-.polemica-1 p{
-    text-align:left;
-}
-.polemica-2{
-    padding: 15px 55px;
-}
-.polemica-2 img{
-    width:200px;
-    margin-bottom:15px;
-}
-.polemica-2 h3{
-    font-size: 25px;
-    color: black;  
-}
-.polemica-2 p{
-    text-align:left;
+p {
+  font-size: 16px;
+  margin: 25px 0 45px 0;
 }
 
-.polemica-3{
-    padding: 15px 55px;  
+.polemicas {
+  padding: 100px 0;
+  text-align: center;
 }
-.polemica-3 img{
-    width:200px;
-    margin-bottom:15px;
+.contenido-polemicas {
+  display: flex;
+  justify-content: space-between;
 }
-.polemica-3 h3{
-    font-size: 25px;
-    color: black;  
+.polemica-1 {
+  padding: 15px 55px;
 }
-.polemica-3 p{
-    text-align:left;
+.polemica-1 img {
+  width: 125px;
+  margin-bottom: 15px;
 }
-.titulo-solo:hover{
-    color: goldenrod;
+.polemica-1 h3 {
+  font-size: 25px;
+  color: black;
+}
+.polemica-1 p {
+  text-align: left;
+}
+.polemica-2 {
+  padding: 15px 55px;
+}
+.polemica-2 img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+.polemica-2 h3 {
+  font-size: 25px;
+  color: black;
+}
+.polemica-2 p {
+  text-align: left;
 }
 
-.footer{
-    padding: 100px 0;
-    background-image: url(https://img.freepik.com/free-photo/black-liquid-marble-background-handmade-acrylic-paint_53876-108099.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position: center bottom;
-    min-height: 70%;
-    display: flex;
-    align-items: center;
+.polemica-3 {
+  padding: 15px 55px;
+}
+.polemica-3 img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+.polemica-3 h3 {
+  font-size: 25px;
+  color: black;
+}
+.polemica-3 p {
+  text-align: left;
+}
+.titulo-solo:hover {
+  color: goldenrod;
 }
 
+.footer {
+  padding: 80px 80px;
+  background-image: url(https://img.freepik.com/free-photo/black-liquid-marble-background-handmade-acrylic-paint_53876-108099.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+.footer h3 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu-footer li {
+  background-color: grey;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.menu-footer li img {
+  width: 80px;
+  height: auto;
+}
