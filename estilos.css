@@ -140,6 +140,13 @@ body {
   padding: 0 250px;
   padding-bottom: 35px;
 }
+
+
+
+
+
+
+
 .nombres-grupo {
   display: flex;
   justify-content: space-between;
@@ -168,6 +175,11 @@ body {
 .nombres-1 p {
   text-align: left;
 }
+
+
+
+
+
 
 .contenido-ganadores .boton1-bis {
   text-align: center;
@@ -205,6 +217,12 @@ body {
   margin-bottom: 15px;
 }
 
+
+
+
+
+
+
 .general {
   display: flex;
 }
@@ -241,57 +259,60 @@ p {
   margin: 25px 0 45px 0;
 }
 
-.polemicas {
-  padding: 100px 0;
-  text-align: center;
-}
+
+
+
+
+
+
+
 .contenido-polemicas {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
+  padding: 5%;
+  gap: 25px;
+  
 }
-.polemica-1 {
+.polemicas-1{
   padding: 15px 55px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border: 1px black solid;
+  border-radius: 20px;
+  padding:25px;
+  background-color: rgb(27, 25, 25);
+  color: whitesmoke;
+  width: 600px;
+  max-height: auto;
 }
-.polemica-1 img {
-  width: 125px;
-  margin-bottom: 15px;
-}
-.polemica-1 h3 {
-  font-size: 25px;
-  color: black;
-}
-.polemica-1 p {
-  text-align: left;
-}
-.polemica-2 {
-  padding: 15px 55px;
-}
-.polemica-2 img {
+.polemicas-1 img {
   width: 200px;
-  margin-bottom: 15px;
+  height: auto;
+  object-fit: cover;
 }
-.polemica-2 h3 {
-  font-size: 25px;
-  color: black;
-}
-.polemica-2 p {
+.polemicas-1 p {
   text-align: left;
 }
 
-.polemica-3 {
-  padding: 15px 55px;
+.boton1-bis{
+  height: px;
+  width: 190px;
+  display: inline-block;
+  padding: 11px 35px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
 }
-.polemica-3 img {
-  width: 200px;
-  margin-bottom: 15px;
-}
-.polemica-3 h3 {
-  font-size: 25px;
-  color: black;
-}
-.polemica-3 p {
-  text-align: left;
-}
+
+
+
+
+
+
 .titulo-solo:hover {
   color: goldenrod;
 }
@@ -313,11 +334,15 @@ ul {
   margin-bottom: 50px;
 }
 .menu-footer li {
-  background-color: grey;
+  background-color: black;
   padding: 10px 30px;
   border-radius: 10px;
+  border: 3px solid white;
 }
 .menu-footer li img {
   width: 80px;
   height: auto;
+}
+.menu-footer P{
+  text-align: center;
 }
