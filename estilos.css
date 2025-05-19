@@ -101,6 +101,10 @@ body {
   background-color: gold;
 }
 
+
+
+
+
 .mejores-ganadores {
   padding: 100px 0;
   background-color: goldenrod;
@@ -120,6 +124,11 @@ body {
 .contenido-ganadores h2:hover {
   color: white;
 }
+.contenido-ganadores .boton1-bis {
+  text-align: center;
+}
+
+
 
 .boton1-bis {
   height: px;
@@ -181,9 +190,13 @@ body {
 
 
 
-.contenido-ganadores .boton1-bis {
-  text-align: center;
-}
+
+
+
+
+
+
+
 .vintage {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Estadio_ingles_lima.jpg);
   background-repeat: no-repeat;
@@ -308,8 +321,12 @@ p {
   text-transform: uppercase;
 }
 
-
-
+.titulo-solo{
+  text-align: center;
+}
+.h2 {
+   text-align: center;
+}
 
 
 

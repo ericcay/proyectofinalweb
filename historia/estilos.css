@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-image: url(https://img.freepik.com/vector-premium/fondo-textura-marmol-negro_322958-628.jpg);
+  background-size: cover;
+  background-position: center;
+  color:whitesmoke;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.carta {
+  background-color: white;
+  max-width: 500px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.carta img {
+  width: 100%;
+  height: auto;
+}
+
+.contenido-carta {
+  padding: 20px;
+}
+
+.contenido-carta h2 {
+  margin-top: 0;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #222;
+  color: #eee;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.9em;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-textura-marmol-negro_322958-628.jpg);
+}
