@@ -245,6 +245,7 @@ body {
   background-color: goldenrod;
 }
 
+
 .general-2 {
   background-image: url(https://dicodusport.fr/blog/wp-content/uploads/2021/04/25-avril-1992-Dernier-match-de-Papin-avec-lOM.png);
   background-position: center center;
@@ -310,7 +311,9 @@ p {
 .polemicas-1 p {
   text-align: left;
 }
-
+.polemicas p{
+  text-align: center;
+}
 .boton1-bis{
   height: px;
   width: 190px;
