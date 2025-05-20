@@ -25,29 +25,38 @@ body {
 .contenido-carta {
   display: flex;
   justify-content: center;
-  gap: 20px; 
+  gap: 140px; 
+  background-color: #ddd;
+  padding: 100px 0px 300px 0px;
+  
 }
 
 .carta {
-  background-color: white;
-  border: 1px solid #ddd;
+  background-color:whitesmoke;
+  border: 3px solid gainsboro;
   border-radius: 10px;
   width: 300px;
-  padding: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 60px;
+  box-shadow: 0 2px 6px rgba(196, 189, 189, 0.1);
   text-align: center;
+  height:600px;
+  
 }
 
 .carta img {
-  width: 100%;
+  width: 300px;
   border-radius: 8px;
+ 
 }
 
 .carta p {
-  margin-top: 10px;
+  margin-top: 30px;
   font-size: 0.9em;
 }
 
+.carta i{
+  font-size: 50px;
+}
 footer {
   margin-top: auto;
   background-color: #222;
@@ -56,4 +65,8 @@ footer {
   padding: 15px 10px;
   font-size: 0.9em;
   background-image: url(https://img.freepik.com/vector-premium/fondo-textura-marmol-negro_322958-628.jpg);
+}
+
+.body{
+  padding: 50px;
 }

@@ -291,9 +291,8 @@ p {
 .polemicas-1{
   padding: 15px 55px;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
   align-items: center;
   border: 1px black solid;
   border-radius: 20px;
@@ -305,8 +304,10 @@ p {
 }
 .polemicas-1 img {
   width: 200px;
-  height: auto;
-  object-fit: cover;
+  height: 400px;
+  object-fit: contain;
+  
+ 
 }
 .polemicas-1 p {
   text-align: left;
@@ -326,6 +327,7 @@ p {
 
 .titulo-solo{
   text-align: center;
+  padding-top:40px;
 }
 .h2 {
    text-align: center;
@@ -354,10 +356,10 @@ ul {
   margin-bottom: 50px;
 }
 .menu-footer li {
-  background-color: black;
+  background-color:black;
   padding: 10px 30px;
   border-radius: 10px;
-  border: 3px solid white;
+  
 }
 .menu-footer li img {
   width: 80px;
