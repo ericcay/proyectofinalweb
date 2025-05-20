@@ -28,29 +28,29 @@ header p {
   color: #ddd;
 }
 
-.contenido {
+.explicación {
   max-width: 1000px;
   margin: 40px auto;
   padding: 0 20px;
 }
 
-.contenido h2 {
+.explicación h2 {
   color: #b8860b;
   margin-bottom: 20px;
 }
 
-.contenido p {
+.explicación p {
   margin-bottom: 20px;
   font-size: 1.1rem;
 }
 
-.galeria {
+.imagenes {
   display: grid;
   gap: 20px;
   margin-top: 30px;
 }
 
-.galeria img {
+.imagenes img {
   width: 100%;
   height: auto;
   border-radius: 10px;
