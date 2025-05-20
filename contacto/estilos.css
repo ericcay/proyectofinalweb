@@ -61,12 +61,32 @@ footer {
   margin-top: auto;
   background-color: #222;
   color: #eee;
+  
   text-align: center;
-  padding: 15px 10px;
   font-size: 0.9em;
   background-image: url(https://img.freepik.com/vector-premium/fondo-textura-marmol-negro_322958-628.jpg);
 }
 
 .body{
   padding: 50px;
+}
+
+.boton-atras{
+  height: 60px;
+  width: 190px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  text-align: center;
+  margin-left: 700px;
+
+}
+
+.boton-atras:hover{
+  background-color:goldenrod;
 }

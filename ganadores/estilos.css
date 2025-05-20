@@ -44,6 +44,27 @@ header h1 {
   margin-top: 0;
 }
 
+.boton-atras{
+  height: 60px;
+  width: 190px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  text-align: center;
+  margin-left: 710px;
+
+}
+
+.boton-atras:hover{
+  background-color:goldenrod;
+}
+
+
 footer {
   margin-top: auto;
   background-color: #222;
