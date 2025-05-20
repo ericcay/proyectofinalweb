@@ -264,9 +264,7 @@ h2 {
   font-size: 40px;
   margin-bottom: 20px;
 }
-h2:hover {
-  color: white;
-}
+
 
 p {
   font-size: 16px;
@@ -276,7 +274,9 @@ p {
 
 
 
-
+.polemicas{
+  background: linear-gradient(to right, #db5d5d, #ffb907);
+}
 
 
 
@@ -297,8 +297,8 @@ p {
   border: 1px black solid;
   border-radius: 20px;
   padding:25px;
-  background-color: rgb(27, 25, 25);
-  color: whitesmoke;
+  background-color: rgb(228, 224, 224);
+  color:black;
   width: 600px;
   max-height: auto;
 }
@@ -323,6 +323,8 @@ p {
   background-color: black;
   color: white;
   text-transform: uppercase;
+  margin-left: 830px;
+  padding-bottom: 20px;
 }
 
 .titulo-solo{
@@ -335,9 +337,6 @@ p {
 
 
 
-.titulo-solo:hover {
-  color: goldenrod;
-}
 
 .footer {
   padding: 80px 80px;
