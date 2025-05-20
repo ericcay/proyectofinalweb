@@ -274,11 +274,11 @@ p {
 
 
 
+
+
 .polemicas{
   background: linear-gradient(to right, #db5d5d, #ffb907);
 }
-
-
 
 .contenido-polemicas {
   display: flex;
@@ -345,6 +345,7 @@ p {
 
 
 
+
 .footer {
   padding: 80px 80px;
   background-image: url(https://img.freepik.com/free-photo/black-liquid-marble-background-handmade-acrylic-paint_53876-108099.jpg);
@@ -362,7 +363,7 @@ ul {
   margin-bottom: 50px;
 }
 .menu-footer li {
-  background-color:black;
+  background-color:rgb(98, 95, 95);
   padding: 10px 30px;
   border-radius: 10px;
   
