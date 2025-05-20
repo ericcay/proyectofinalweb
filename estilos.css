@@ -132,7 +132,7 @@ body {
 
 .boton1-bis {
   height: px;
-  width: 190px;
+  width: 150px;
   display: inline-block;
   padding: 11px 35px;
   background-color: black;
@@ -315,17 +315,25 @@ p {
 .polemicas p{
   text-align: center;
 }
-.boton1-bis{
- 
+.boton1-polemicas{
+  height: 60px;
   width: 190px;
   display: inline-block;
   padding: 11px 35px;
   background-color: black;
   color: white;
   text-transform: uppercase;
-  
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 120px;
+  text-align: center;
+  margin-left: 720px;
 }
 
+.boton1-polemicas:hover{
+  background-color:red;
+}
 .titulo-solo{
   text-align: center;
   padding-top:40px;
