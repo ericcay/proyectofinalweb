@@ -75,7 +75,7 @@ footer {
     font-size: 1rem;
   }
 .boton-atras{
- height: 60px;
+  height: 60px;
   width: 190px;
   display: inline-block;
   background-color: black;
@@ -83,8 +83,9 @@ footer {
   text-transform: uppercase;
   align-items: center;
   border-radius: 20px;
-  margin-top: 50px;
-  margin-bottom: 120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
   text-align: center;
   margin-left: 850px;
 

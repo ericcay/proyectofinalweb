@@ -400,7 +400,7 @@ p {
 
 .tarjeta-patrocinador:hover {
   transform: translateY(-10px);
-  background-color: #fbbf24; 
+  background-color: rgb(241, 159, 50); 
   color: #000;
 }
 
