@@ -55,6 +55,7 @@ body {
 }
 
 .menu .navbar ul li a:hover {
+  transform: translateY(-5px);
   color: goldenrod;
 }
 #menu {
@@ -98,6 +99,7 @@ body {
   text-transform: uppercase;
 }
 .boton1:hover {
+  transform: translateY(-5px);
   background-color: gold;
 }
 
@@ -122,6 +124,7 @@ body {
   margin-bottom: 15px;
 }
 .contenido-ganadores h2:hover {
+  transform: translateY(-5px);
   color: white;
 }
 .contenido-ganadores .boton1-bis {
@@ -140,6 +143,7 @@ body {
   text-transform: uppercase;
 }
 .boton1-bis:hover {
+  transform: translateY(-5px);
   background-color: gold;
 }
 
@@ -332,6 +336,7 @@ p {
 }
 
 .boton1-polemicas:hover{
+  transform: translateY(-5px);
   background-color:red;
 }
 .titulo-solo{
@@ -345,33 +350,68 @@ p {
 
 
 
-
-.footer {
-  padding: 80px 80px;
-  background-image: url(https://img.freepik.com/free-photo/black-liquid-marble-background-handmade-acrylic-paint_53876-108099.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
+.pie-pagina {
+  background-color: #000; 
+  color: #fff;
+  padding-top: 40px;
+  border-top: 4px solid #fbbf24; 
 }
 
-ul {
-  display: flex;
-  justify-content: space-between;
-}
-.footer h3 {
+.contenedor-patrocinadores {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
-.menu-footer li {
-  background-color:rgb(98, 95, 95);
-  padding: 10px 30px;
+
+.titulo-patrocinadores {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-family: 'Georgia', serif;
+}
+
+.lista-patrocinadores {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.tarjeta-patrocinador {
+  background-color: #2f2f2f;
   border-radius: 10px;
+  padding: 15px;
+  width: 120px;
+  text-align: center;
   
 }
-.menu-footer li img {
-  width: 80px;
+
+.tarjeta-patrocinador img {
+  max-width: 60px;
   height: auto;
+  margin-bottom: 10px;
 }
-.menu-footer P{
+
+.tarjeta-patrocinador p {
+  color: #fff;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.tarjeta-patrocinador:hover {
+  transform: translateY(-10px);
+  background-color: #fbbf24; 
+  color: #000;
+}
+
+.tarjeta-patrocinador:hover p {
+  color: #000;
+}
+
+.creditos {
+  background-color: #111;
   text-align: center;
+  padding: 15px 0;
+  font-size: 0.8rem;
+  color: #aaa;
 }
