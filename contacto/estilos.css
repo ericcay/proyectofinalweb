@@ -58,10 +58,10 @@ body {
   font-size: 50px;
 }
 footer {
-  margin-top: auto;
+  padding-top: 50px;
   background-color: #222;
   color: #eee;
-  
+  height: 120px;
   text-align: center;
   font-size: 0.9em;
   background-image: url(https://img.freepik.com/vector-premium/fondo-textura-marmol-negro_322958-628.jpg);
