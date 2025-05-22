@@ -363,7 +363,7 @@ p {
 }
 
 .titulo-patrocinadores {
-  font-size: 1.8rem;
+  font-size: 24px;
   margin-bottom: 20px;
   letter-spacing: 1px;
   font-family: 'Georgia', serif;
@@ -394,7 +394,7 @@ p {
 
 .tarjeta-patrocinador p {
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 14px;
   margin: 0;
 }
 
@@ -412,6 +412,6 @@ p {
   background-color: #111;
   text-align: center;
   padding: 15px 0;
-  font-size: 0.8rem;
+  font-size: 12px;
   color: #aaa;
 }
