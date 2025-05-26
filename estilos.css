@@ -66,10 +66,7 @@ body {
   width: 25px;
 }
 
-.menu label {
-  cursor: pointer;
-  display: none;
-}
+
 
 .header-content {
   text-align: center;
@@ -214,7 +211,7 @@ body {
 .contenido-vintage h2 {
   font-size: 55px;
   line-height: 70px;
-  color: black;
+  color:black;
   text-transform: uppercase;
   margin-bottom: 50px;
 }
